@@ -1,0 +1,16 @@
+# Core libraries
+gradio
+langchain
+langchain-openai
+langchain-community
+openai
+python-dotenv
+
+# Document processing
+camelot-py[cv]
+PyMuPDF
+
+# Vector store
+faiss-cpu # or faiss-gpu if you have a compatible GPU
+tiktoken
+-e .
