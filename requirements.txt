@@ -1,16 +1,23 @@
 # Core libraries
-gradio
-langchain
-langchain-openai
-langchain-community
-openai
-python-dotenv
+gradio>=4.0.0
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-community>=0.0.10
+openai>=1.0.0
+python-dotenv>=1.0.0
 
 # Document processing
-camelot-py[cv]
-PyMuPDF
+camelot-py[cv]>=0.10.0
+PyMuPDF>=1.23.0
 
 # Vector store
-faiss-cpu # or faiss-gpu if you have a compatible GPU
-tiktoken
+faiss-cpu>=1.7.0  # or faiss-gpu if you have a compatible GPU
+tiktoken>=0.5.0
+
+# Development dependencies (optional)
+# flake8>=6.0.0
+# black>=23.0.0
+# pytest>=7.0.0
+
+# Local package
 -e .
