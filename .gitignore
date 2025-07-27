@@ -213,8 +213,8 @@ __marimo__/
 .env.*.local
 
 # Vector store (generated files)
-vector_store/
-!vector_store/.gitkeep
+# vector_store/
+# !vector_store/.gitkeep
 
 # Logs
 *.log

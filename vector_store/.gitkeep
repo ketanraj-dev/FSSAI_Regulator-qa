@@ -1,0 +1,2 @@
+# This file ensures the vector_store directory is tracked in git
+# The actual vector store files will be generated when running ingest.py
